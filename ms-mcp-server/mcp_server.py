@@ -11,7 +11,7 @@ mcp = FastApiMCP(
     app,
     name="POC mcp server",
     description="POC mcp server",
-    base_url="http://localhost:8000",
+    #base_url="http://localhost:8000",
     describe_all_responses=True,
     describe_full_response_schema=True)
 
